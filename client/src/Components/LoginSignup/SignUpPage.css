@@ -1,0 +1,107 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(
+    ellipse 100% 70% at center,
+    #03111f 0%,
+    #041527 20%,
+    #051324 40%,
+    #06121f 60%,
+    #070f18 80%,
+    #080d15 100%
+  );
+  color: white;
+}
+.wrapper {
+  width: 23%;
+  height: 70%;
+  padding: 35px;
+  border: 3px solid #242a37;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background: radial-gradient(
+    ellipse 85% 90% at center,
+    #03111f 0%,
+    #041527 20%,
+    #051324 40%,
+    #06121f 60%,
+    #070f18 80%,
+    #080d15 100%
+  );
+}
+.logo_div {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.logo_img_div {
+  height: 100%;
+  width: 75px;
+}
+.logo_img_div img {
+  height: 100%;
+  width: 100%;
+}
+
+.input_field {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 250px;
+
+  width: 100%;
+}
+.inputs_div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 205px;
+  width: 100%;
+}
+.form_input {
+  color: #94a0b8;
+  width: 100%;
+}
+
+.checked_div {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 104%;
+  font-size: 16px;
+}
+/* ///////////////////////////////////////////////////// */
+.custom-checkbox .MuiSvgIcon-root {
+  padding: 0;
+  color: transparent; /* Hide the default SVG color */
+  background-color: transparent; /* Keep background clear when unchecked */
+  border: 2px solid #94a0b8; /* White border when unchecked */
+  border-radius: 4px; /* Optional: for rounded corners */
+  box-sizing: border-box; /* Ensure borders are within the element's size */
+  width: 16px; /* Set a consistent width */
+  height: 16px; /* Set a consistent height */
+}
+
+.custom-checkbox.Mui-checked .MuiSvgIcon-root {
+  padding: 0;
+  background-color: transparent; /* Keep background clear when checked */
+  color: #0b6bcb; /* Set the checkmark color to white */
+  border-color: #0b6bcb; /* Keep the border white */
+  width: 16px; /* Keep width consistent */
+  height: 16px; /* Keep height consistent */
+}
+
+.sign_up_btn {
+  width: 100%;
+}
